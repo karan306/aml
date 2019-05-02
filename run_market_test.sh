@@ -14,7 +14,7 @@ fi
 gpu=0
 D_arch='DCGAN'
 
-model_dir=path_to_directory_of_model
+model_dir=/content/models
 start_step=0
 pretrained_path=${model_dir}'/model.ckpt-'${start_step}
 
